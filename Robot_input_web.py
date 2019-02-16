@@ -9,7 +9,7 @@ driver.get('https://10.9.92.91:1443/login_ipas/login.html')
 login_box = driver.find_element_by_id('i_user')
 
 # Send login information
-login_box.send_keys('username')
+login_box.send_keys('K_JIRAPONG')
 
 # Select the login password box
 login_pass_box = driver.find_element_by_id('i_password')
@@ -42,3 +42,4 @@ login_button.click()
 
 
 driver.implicitly_wait(30) # seconds
+

@@ -7,3 +7,4 @@ pip install selenium --trusted-host pypi.org --trusted-host files.pythonhosted.o
 
 
 deactivate.bat
+
